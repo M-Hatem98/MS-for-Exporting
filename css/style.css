@@ -293,6 +293,10 @@ h1,h2,h3 {
         font-weight: bold;
       }
 
+      .why .whyus ul i {
+          color: var(--light-purple) !important;
+        }
+
       hr {
         margin: 0.5rem 0;
         color: var(--black);
@@ -319,7 +323,6 @@ h1,h2,h3 {
         .why .whyus p {
             font-size: 14px;
             line-height: 1.6;
-
         }
 
         .why .video {
@@ -525,7 +528,7 @@ h1,h2,h3 {
   }
   
 
-  .khushi-snacks {
+  .ms-snacks {
     background-color: var(--pink);
   }
   
@@ -535,11 +538,11 @@ h1,h2,h3 {
     margin-right: 5px;
   }
 
-  .khushi-snacks a {
+  .ms-snacks a {
     transition: 0.3s all ease-in-out;
 }
 
-  .khushi-snacks a:hover {
+  .ms-snacks a:hover {
     background-color: transparent;
     color: var(--white);
     transform: translateY(-5px);
